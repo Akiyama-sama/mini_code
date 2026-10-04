@@ -1,0 +1,42 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# 本地真实配置（含 API_KEY），仓库里只提交 env.conf.example 模板
+env.conf
+env.conf.local
+*.local.conf
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# local agent sessions
+.mini_code/
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store

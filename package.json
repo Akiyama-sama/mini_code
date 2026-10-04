@@ -1,0 +1,21 @@
+{
+  "name": "agent-learn",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "code": "bun run index.ts",
+    "build": "bun build index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.2",
+    "dotenv": "^18.0.5",
+    "openai": "^7.27.0"
+  }
+}
