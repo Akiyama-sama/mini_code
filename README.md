@@ -1,5 +1,11 @@
 # mini code
 
+
+
+https://github.com/user-attachments/assets/6bd14c6e-370a-4b69-b7e2-9497c5f22640
+
+
+
 这是一个最小的 coding agent 实现，核心功能包括
 
 - agent loop 循环:  用户询问，agent 调用工具 -> 把调用工具的结果返回给 agent -> agent 再根据内容执行后续操作，循环往复，直到不再调用工具，即认为 agent 已经完成这个任务
